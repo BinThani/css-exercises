@@ -9,12 +9,21 @@
   </head>
   <body>
     <div class="modal">
-      <div class="icon">!</div>
-      <div class="header">Are you sure you want to do that?</div>
-      <button class="close-button">✖</button>
-      <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi id soluta, numquam minima rerum doloremque eveniet aspernatur beatae commodi. Cupiditate recusandae ad repellendus quidem consectetur sequi amet aspernatur cumque!</div>
-      <button class="continue">Continue</button>
-      <button class="cancel">Cancel</button>
+      <div class="parent-container">
+        <div class="icon icon-flex">!</div>
+
+        <div class="child-container1">
+          <div class="header-flex">
+            <div class="header flex-item">Are you sure you want to do that?</div>
+            <button class="close-button x-button">✖</button>
+          </div>
+          <div class="text flex-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi id soluta, numquam minima rerum doloremque eveniet aspernatur beatae commodi. Cupiditate recusandae ad repellendus quidem consectetur sequi amet aspernatur cumque!</div>
+          <div class="flex-item continue-cancel-flex">
+            <button class="continue">Continue</button>
+            <button class="cancel">Cancel</button>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
